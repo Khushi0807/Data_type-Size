@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int int_type;
+	char char_type;
+	float float_type ;
+	float a,b;
+	double double_type;
+	
+	//Helps to find the size of different data types
+	
+	cout<<"Size of int: "<< sizeof(int_type) << " byte";
+	cout<<"\nSize of char: "<< sizeof(char_type) << " byte";
+	cout<<"\nSize of float: "<< sizeof(float_type) << " byte";
+	cout<<"\nSize of double: "<< sizeof(double_type) << " byte";
+	
+	//Helps to find the product of two number
+	
+	cout<<" \n\nProducts of two numbers";
+	cout <<"\nEnter first number:" ;
+	cin>>a;
+	cout<<"\nEnter second number:" ;
+	cin>>b;
+	cout <<"Product = "<<a*b ;
+	return 0;
+	
+}
